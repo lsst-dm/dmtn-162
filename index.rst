@@ -83,11 +83,11 @@ resulting behavior.
 Memory size
 ===========
 
-In previous tests machines had large large 256GB RAM. In those tests we
-learned that Cassandra, being a Java application, needs careful tuning for
-memory parameters to reduce garbage collection overhead. In general Cassandra
-should prefer large number of nodes with smaller memory size per node.
-Optimal memory size could be around 64GB or less per node.
+In previous tests machines had large 256GB RAM. In those tests we learned that
+Cassandra, being a Java application, needs careful tuning for memory
+parameters to reduce garbage collection overhead. In general Cassandra should
+prefer large number of nodes with smaller memory size per node. Optimal memory
+size could be around 64GB or less per node.
 
 
 Clients and Connectivity
